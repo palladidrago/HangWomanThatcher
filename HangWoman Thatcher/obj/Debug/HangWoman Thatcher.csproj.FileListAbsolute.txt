@@ -1,0 +1,10 @@
+C:\Users\palla\Documents\Coding\shisharp\HangWoman Thatcher\HangWoman Thatcher\bin\Debug\HangWoman Thatcher.exe.config
+C:\Users\palla\Documents\Coding\shisharp\HangWoman Thatcher\HangWoman Thatcher\bin\Debug\HangWoman Thatcher.exe
+C:\Users\palla\Documents\Coding\shisharp\HangWoman Thatcher\HangWoman Thatcher\bin\Debug\HangWoman Thatcher.pdb
+C:\Users\palla\Documents\Coding\shisharp\HangWoman Thatcher\HangWoman Thatcher\obj\Debug\HangWoman Thatcher.csprojAssemblyReference.cache
+C:\Users\palla\Documents\Coding\shisharp\HangWoman Thatcher\HangWoman Thatcher\obj\Debug\HangWoman_Thatcher.Form1.resources
+C:\Users\palla\Documents\Coding\shisharp\HangWoman Thatcher\HangWoman Thatcher\obj\Debug\HangWoman_Thatcher.Properties.Resources.resources
+C:\Users\palla\Documents\Coding\shisharp\HangWoman Thatcher\HangWoman Thatcher\obj\Debug\HangWoman Thatcher.csproj.GenerateResource.cache
+C:\Users\palla\Documents\Coding\shisharp\HangWoman Thatcher\HangWoman Thatcher\obj\Debug\HangWoman Thatcher.csproj.CoreCompileInputs.cache
+C:\Users\palla\Documents\Coding\shisharp\HangWoman Thatcher\HangWoman Thatcher\obj\Debug\HangWoman Thatcher.exe
+C:\Users\palla\Documents\Coding\shisharp\HangWoman Thatcher\HangWoman Thatcher\obj\Debug\HangWoman Thatcher.pdb
