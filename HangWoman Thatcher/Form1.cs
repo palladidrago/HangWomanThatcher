@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Media;
 
 namespace HangWoman_Thatcher
 {
@@ -16,7 +17,8 @@ namespace HangWoman_Thatcher
         public Form1()
         {
             InitializeComponent();
-
+            SoundPlayer simpleSound = new SoundPlayer(@"c:\Users\palla\Documents\Coding\shisharp\HangWoman Thatcher\HangWoman Thatcher\Resources\IHE.wav");
+            simpleSound.Play();
             Image[] tempImg={ Resources.p1, Resources.p2, Resources.p3, Resources.p4, Resources.p5, Resources.p6, };
             m_Images = tempImg;
         }
@@ -97,7 +99,7 @@ namespace HangWoman_Thatcher
                 //Disable the pressed button.
                 (sender as Button).Enabled = false;
                 //If won, restart.
-                if (m_RightCount==letterAmount) { MessageBox.Show("YOU WON BRO !!!!!!!!!!!!!!");Restart(); }
+                if (m_RightCount==m_WordToGuess.Length) { MessageBox.Show("YOU WON BRO !!!!!!!!!!!!!!");Restart(); }
                 if (m_CountError == 5) { MessageBox.Show("YOU LOST BRO :("); Restart(); }
 
             }

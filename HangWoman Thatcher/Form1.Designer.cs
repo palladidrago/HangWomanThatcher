@@ -550,7 +550,7 @@
             // roniMan
             // 
             this.roniMan.Image = global::HangWoman_Thatcher.Properties.Resources.p0;
-            this.roniMan.Location = new System.Drawing.Point(983, 12);
+            this.roniMan.Location = new System.Drawing.Point(1013, 12);
             this.roniMan.Name = "roniMan";
             this.roniMan.Size = new System.Drawing.Size(313, 409);
             this.roniMan.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -562,7 +562,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(1318, 603);
+            this.ClientSize = new System.Drawing.Size(1471, 603);
             this.Controls.Add(this.roniMan);
             this.Controls.Add(this.keyboard);
             this.Controls.Add(this.labels);
