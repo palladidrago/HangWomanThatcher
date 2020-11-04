@@ -20,19 +20,16 @@ namespace HangWoman_Thatcher
             Image[] tempImg={ Resources.p1, Resources.p2, Resources.p3, Resources.p4, Resources.p5, Resources.p6, };
             m_Images = tempImg;
         }
-        int letterAmount=9;
+        int letterAmount=26;
 
         private void setButtons(bool want)
         {
             //Enables/Disables all the buttons.
-            int butCount = 1;
             Button curButton;
-            for (char c = 'A'; c < letterAmount + 'A'; c++)
+            for (int i = 1; i <= letterAmount; i++)
             {
-                curButton = keyboard.Controls["button" + butCount] as Button;
-                curButton.Text = c.ToString();
+                curButton = keyboard.Controls["button" + i] as Button;
                 curButton.Enabled = want;
-                butCount++;
             }
         }
         private void Restart()
@@ -67,7 +64,7 @@ namespace HangWoman_Thatcher
                 //If first player, let input letters.
                 labels.Controls["label" + m_CurrentLabel].Text = buttonText;
                 m_CurrentLabel++;
-                if (m_CurrentLabel == letterAmount+1)
+                if (m_CurrentLabel == 10)
                 {
                     okeButton.Enabled = true;
                     setButtons(false);
@@ -121,7 +118,7 @@ namespace HangWoman_Thatcher
         private void buttonOke(object sender, EventArgs e)
         {
             Label curLabel;
-            for (int i = 1; i <= letterAmount; i++)
+            for (int i = 1; i <= 9; i++)
             {
                 curLabel = labels.Controls["label" + i] as Label;
                 m_WordToGuess += curLabel.Text;
@@ -132,12 +129,10 @@ namespace HangWoman_Thatcher
             okeButton.Visible = false;
             m_isFirst = false;
         }
-
         private void label5_Click(object sender, EventArgs e)
         {
 
         }
-
         private void label6_Click(object sender, EventArgs e)
         {
 
