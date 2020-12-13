@@ -12,9 +12,9 @@ using System.Media;
 
 namespace HangWoman_Thatcher
 {
-    public partial class Form1 : Form
+    public partial class HangManElieMeir : Form
     {
-        public Form1()
+        public HangManElieMeir()
         {
             InitializeComponent();
             SoundPlayer simpleSound = new SoundPlayer(@"c:\Users\palla\Documents\Coding\shisharp\HangWoman Thatcher\HangWoman Thatcher\Resources\IHE.wav");
@@ -131,6 +131,7 @@ namespace HangWoman_Thatcher
             okeButton.Visible = false;
             m_isFirst = false;
         }
+
         private void label5_Click(object sender, EventArgs e)
         {
 

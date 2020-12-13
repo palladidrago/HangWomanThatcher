@@ -1,6 +1,6 @@
 ﻿namespace HangWoman_Thatcher
 {
-    partial class Form1
+    partial class HangManElieMeir
     {
         /// <summary>
         /// Required designer variable.
@@ -557,7 +557,7 @@
             this.roniMan.TabIndex = 4;
             this.roniMan.TabStop = false;
             // 
-            // Form1
+            // HangManElieMeir
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -566,7 +566,7 @@
             this.Controls.Add(this.roniMan);
             this.Controls.Add(this.keyboard);
             this.Controls.Add(this.labels);
-            this.Name = "Form1";
+            this.Name = "HangManElieMeir";
             this.Text = "Form1";
             this.labels.ResumeLayout(false);
             this.labels.PerformLayout();
